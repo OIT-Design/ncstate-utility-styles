@@ -1,0 +1,19 @@
+{
+  "name": "ncstate-utility-styles",
+  "version": "1.0.0",
+  "description": "NC State CSS utility classes",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "build": "node-sass --source-map=true --output-style=compressed style.scss style.css",
+    "watch": "node-sass -w style.scss style.css"
+  },
+  "keywords": [
+    "styles"
+  ],
+  "author": "Miles Elliott, OIT Design",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.10.0"
+  }
+}

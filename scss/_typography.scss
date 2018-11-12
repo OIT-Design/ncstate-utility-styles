@@ -1,0 +1,16 @@
+/* NC State Typfaces */
+.univers{ font-family: 'UniversRoman', arial, sans-serif;}
+.univers-light{ font-family: 'UniversLight', arial, sans-serif;}
+.univers-condensed{ font-family: 'UniversCondensed', arial, sans-serif;}
+.glypha{ font-family: 'GlyphaRoman', arial, sans-serif;}
+.glypha-light{ font-family: 'GlyphaLight', arial, sans-serif;}
+
+
+/* Word Wrapping */
+.overflow-wrap-break {
+    overflow-wrap: break-word;
+  }
+  
+  .overflow-wrap {
+    overflow-wrap: normal;
+  }

@@ -1,0 +1,58 @@
+
+
+/* NC State Colors */
+.gray-10 {  color: $light-gray;}
+.gray-25 { color: $moon-gray; }
+.gray-60 {  color: $mid-gray;}
+.gray-90 {  color: $dark-gray;}
+.indigo {  color: $indigo;}
+.flame {color: $orange;}
+.reynolds {color: $dark-red;}
+
+/* Text Color Aliases for Compatability with Hillsborough */
+
+.text-white { color: $white}
+.text-black { color: $black}
+
+/* NC State Background Colors */
+.bg-gray-10 {  background-color: $light-gray;}
+.bg-gray-25 { background-color: $moon-gray; }
+.bg-gray-60 {  background-color: $mid-gray;}
+.bg-gray-90 {  background-color: $dark-gray;}
+.bg-indigo {  background-color: $indigo;}
+.bg-flame {background-color: $orange;}
+.bg-reynolds {background-color: $dark-red;}
+
+/* NC State Border Colors */
+.b--gray-10 {  border-color: $light-gray;}
+.b--gray-25 { border-color: $moon-gray; }
+.b--gray-60 {  border-color: $mid-gray;}
+.b--gray-90 {  border-color: $dark-gray;}
+.b--indigo {  border-color: $indigo;}
+.b--flame {border-color: $orange;}
+.b--reynolds {border-color: $dark-red;}
+
+/* NC State Pseudo Colors */
+.hover-bg-gray-10:hover, .hover-bg-gray-10:focus{  color: $light-gray;}
+.hover-bg-gray-25:hover, .hover-bg-gray-25:focus{ color: $moon-gray; }
+.hover-bg-gray-60:hover, .hover-bg-gray-60:focus{  color: $mid-gray;}
+.hover-bg-gray-90:hover, .hover-bg-gray-90:focus{  color: $dark-gray;}
+.hover-bg-indigo:hover, .hover-bg-indigo:focus{  color: $indigo;}
+.hover-bg-flame:hover, .hover-bg-flame:focus{color: $orange;}
+.hover-bg-reynolds:hover, .hover-bg-reynolds:focus{color: $dark-red;}
+
+/* Fill for SVG */
+.fill-red {fill: $red}
+.fill-yellow {fill: $yellow}
+.fill-green {fill: $green}
+.fill-blue {fill: $blue}
+.fill-black {fill: $black}
+.fill-white {fill:$white}
+.fill-gray-10 {  fill: $light-gray;}
+.fill-gray-25 { fill: $moon-gray; }
+.fill-gray-60 {  fill: $mid-gray;}
+.fill-gray-90 {  fill: $dark-gray;}
+.fill-indigo {  fill: $indigo;}
+.fill-flame {fill: $orange;}
+.fill-reynolds {fill: $dark-red;}
+

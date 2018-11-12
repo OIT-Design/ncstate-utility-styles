@@ -1,0 +1,59 @@
+
+/* Make sure child headings and links follow tachyons classes */
+.gray-10, .gray-25, .gray-60, .gray-90, .indigo, .flame, .reynolds, .red, .text-white, .text-black, .yellow, .blue, .green {
+    h1, h2, h3 {
+      color: inherit;
+    }
+    & > a {
+      color: inherit;
+      &:hover, &:active, &:focus {
+        text-decoration: underline;
+        color: inherit;
+      }
+    }
+  }
+
+  /* fix subscript color */
+  .components-toolbar__control.components-button:not(:disabled).is-active[data-subscript]:after {
+    color: white;
+  }
+
+  /* Fix Table Layout in WordPress */
+  table.fixed {
+    position: initial;
+  }
+
+  .fixed-table {
+    position: fixed;
+  }
+
+  /* Text Color Aliases for Compatability with Hillsborough */
+
+  .text-white { color: $white}
+  .text-black { color: $black}
+
+  .no-underline-hover:hover, .no-underline-hover:focus {
+    text-decoration: none;
+  }
+
+  /* Useful for getting rid of bootstrap styles that add an icon before list items */
+  .before-none:before {
+    display:none;
+  }
+
+/* Override Specifically set Font Sizes on Editor Paragraphs */
+@each $el in h1 h2 h3 h4 h5 h6 p {
+  .edit-post-visual-editor #{$el} {
+    @each $class in f1 f2 f3 f4 f5 f6 f-5 f-6 univers univers-light univers-condensed glypha glypha-light fw1 fw2 fw3 fw4 fw5 fw6 fw7 fw8 fw9 b normal text-white text-black red blue green yellow reynolds indigo  {
+      &.#{$class} {
+        @extend .#{$class}
+      }
+    }
+    }
+  }
+
+@for $i from 1 through 5 {
+  .s#{$i} {
+    @extend .h#{$i}, .w#{$i}
+  }
+}

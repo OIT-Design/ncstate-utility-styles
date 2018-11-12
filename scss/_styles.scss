@@ -1,0 +1,73 @@
+// Get Custom Variables
+@import './variables';
+
+// Compatability with WordPress and other integrated codebases
+@import './compatability';
+
+// Implementation of brand colors
+@import './color';
+
+// Typographic styles
+@import './typography';
+
+
+/* Styles for Collapsing Elements */
+
+.h-00 {
+  height: 0;
+}
+
+.ease-all {
+  transition: 0.2s ease all;
+}
+
+/* split flex evenly */
+
+.flex-50 {
+  flex: 1 1 50%;
+}
+
+.flex-33 {
+  flex: 1 1 33%;
+}
+
+.minw-30 {
+  min-width: 30%;
+}
+
+.underline-hover {
+  text-decoration: none;
+}
+
+.hover-parent .hover-shift-right {
+ right:0;
+ transform: translateX(100%);
+}
+
+.hover-parent  {
+  &:active, &:focus, &:hover {
+    .hover-shift-right {
+      right: -0.5em;
+    }
+    
+  }
+}
+
+.pa3-5 {
+  padding: 1.5em
+}
+
+.pa2-5 {
+  padding: 0.75em
+}
+
+@for $i from 1 through 10 {
+  .fls#{$i} {
+    flex-shrink: #{$i};
+  }
+  .flg#{$i} {
+    flex-grow: #{$i};
+  }
+}
+
+
