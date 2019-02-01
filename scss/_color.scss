@@ -33,13 +33,13 @@
 .b--reynolds {border-color: $dark-red;}
 
 /* NC State Pseudo Colors */
-.hover-bg-gray-10:hover, .hover-bg-gray-10:focus{  color: $light-gray;}
-.hover-bg-gray-25:hover, .hover-bg-gray-25:focus{ color: $moon-gray; }
-.hover-bg-gray-60:hover, .hover-bg-gray-60:focus{  color: $mid-gray;}
-.hover-bg-gray-90:hover, .hover-bg-gray-90:focus{  color: $dark-gray;}
-.hover-bg-indigo:hover, .hover-bg-indigo:focus{  color: $indigo;}
-.hover-bg-flame:hover, .hover-bg-flame:focus{color: $orange;}
-.hover-bg-reynolds:hover, .hover-bg-reynolds:focus{color: $dark-red;}
+.hover-bg-gray-10:hover, .hover-bg-gray-10:focus{  background-color: $light-gray;}
+.hover-bg-gray-25:hover, .hover-bg-gray-25:focus{ background-color: $moon-gray; }
+.hover-bg-gray-60:hover, .hover-bg-gray-60:focus{  background-color: $mid-gray;}
+.hover-bg-gray-90:hover, .hover-bg-gray-90:focus{  background-color: $dark-gray;}
+.hover-bg-indigo:hover, .hover-bg-indigo:focus{  background-color: $indigo;}
+.hover-bg-flame:hover, .hover-bg-flame:focus{background-color: $orange;}
+.hover-bg-reynolds:hover, .hover-bg-reynolds:focus{background-color: $dark-red;}
 
 /* Fill for SVG */
 .fill-red {fill: $red}
