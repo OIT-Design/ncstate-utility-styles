@@ -54,6 +54,6 @@
 
 @for $i from 1 through 5 {
   .s#{$i} {
-    @extend .h#{$i}, .w#{$i}
+    @extend .height#{$i}, .w#{$i}
   }
 }
