@@ -1,6 +1,6 @@
 
 /* Make sure child headings and links follow tachyons classes */
-.gray-10, .gray-25, .gray-60, .gray-90, .indigo, .flame, .reynolds, .red, .text-white, .text-black, .yellow, .blue, .green {
+.n_gray-10, .n_gray-25, .n_gray-60, .n_gray-90, .n_indigo, .n_flame, .n_reynolds, .n_red, .n_text-white, .n_text-black, .n_yellow, .n_blue, .n_green {
     h1, h2, h3 {
       color: inherit;
     }
@@ -19,25 +19,25 @@
   }
 
   /* Fix Table Layout in WordPress */
-  table.fixed {
+  table.n_fixed {
     position: initial;
   }
 
-  .fixed-table {
+  .n_fixed-table {
     position: fixed;
   }
 
   /* Text Color Aliases for Compatability with Hillsborough */
 
-  .text-white { color: $white}
-  .text-black { color: $black}
+  .n_text-white { color: $white}
+  .n_text-black { color: $black}
 
-  .no-underline-hover:hover, .no-underline-hover:focus {
+  .n_no-underline-hover:hover, .n_no-underline-hover:focus {
     text-decoration: none;
   }
 
   /* Useful for getting rid of bootstrap styles that add an icon before list items */
-  .before-none:before {
+  .n_before-none:before {
     display:none;
   }
 
@@ -53,7 +53,7 @@
   }
 
 @for $i from 1 through 5 {
-  .s#{$i} {
-    @extend .height#{$i}, .w#{$i}
+  .n_s#{$i} {
+    @extend .n_height#{$i}, .n_w#{$i}
   }
 }

@@ -20,54 +20,54 @@
 
 
 /* Measure is limited to ~66 characters */
-.measure {
+.n_measure {
   max-width: $measure;
 }
 
 /* Measure is limited to ~80 characters */
-.measure-wide {
+.n_measure-wide {
   max-width: $measure-wide;
 }
 
 /* Measure is limited to ~45 characters */
-.measure-narrow {
+.n_measure-narrow {
   max-width: $measure-narrow;
 }
 
 /* Book paragraph style - paragraphs are indented with no vertical spacing. */
-.indent {
+.n_indent {
   text-indent: 1em;
 }
 
-.small-caps {
+.n_small-caps {
   font-variant: small-caps;
 }
 
 /* Combine this class with a width to truncate text (or just leave as is to truncate at width of containing element. */
 
-.truncate {
+.n_truncate {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 @media #{$breakpoint-not-small} {
-  .measure-ns  {
+  .n_measure-ns  {
     max-width: $measure;
   }
-  .measure-wide-ns {
+  .n_measure-wide-ns {
     max-width: $measure-wide;
   }
-  .measure-narrow-ns {
+  .n_measure-narrow-ns {
     max-width: $measure-narrow;
   }
-  .indent-ns {
+  .n_indent-ns {
     text-indent: 1em;
   }
-  .small-caps-ns {
+  .n_small-caps-ns {
     font-variant: small-caps;
   }
-  .truncate-ns {
+  .n_truncate-ns {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -75,22 +75,22 @@
 }
 
 @media #{$breakpoint-medium} {
-  .measure-m {
+  .n_measure-m {
     max-width: $measure;
   }
-  .measure-wide-m {
+  .n_measure-wide-m {
     max-width: $measure-wide;
   }
-  .measure-narrow-m {
+  .n_measure-narrow-m {
     max-width: $measure-narrow;
   }
-  .indent-m {
+  .n_indent-m {
     text-indent: 1em;
   }
-  .small-caps-m {
+  .n_small-caps-m {
     font-variant: small-caps;
   }
-  .truncate-m {
+  .n_truncate-m {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -98,22 +98,22 @@
 }
 
 @media #{$breakpoint-large} {
-  .measure-l {
+  .n_measure-l {
     max-width: $measure;
   }
-  .measure-wide-l {
+  .n_measure-wide-l {
     max-width: $measure-wide;
   }
-  .measure-narrow-l {
+  .n_measure-narrow-l {
     max-width: $measure-narrow;
   }
-  .indent-l {
+  .n_indent-l {
     text-indent: 1em;
   }
-  .small-caps-l {
+  .n_small-caps-l {
     font-variant: small-caps;
   }
-  .truncate-l {
+  .n_truncate-l {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

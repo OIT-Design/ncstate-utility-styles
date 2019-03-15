@@ -28,28 +28,28 @@
 
  */
 
-.b--dotted { border-style: dotted; }
-.b--dashed { border-style: dashed; }
-.b--solid {  border-style: solid; }
-.b--none {   border-style: none; }
+.n_b--dotted { border-style: dotted; }
+.n_b--dashed { border-style: dashed; }
+.n_b--solid {  border-style: solid; }
+.n_b--none {   border-style: none; }
 
 @media #{$breakpoint-not-small} {
-  .b--dotted-ns { border-style: dotted; }
-  .b--dashed-ns { border-style: dashed; }
-  .b--solid-ns {  border-style: solid; }
-  .b--none-ns {   border-style: none; }
+  .n_b--dotted-ns { border-style: dotted; }
+  .n_b--dashed-ns { border-style: dashed; }
+  .n_b--solid-ns {  border-style: solid; }
+  .n_b--none-ns {   border-style: none; }
 }
 
 @media #{$breakpoint-medium} {
-  .b--dotted-m { border-style: dotted; }
-  .b--dashed-m { border-style: dashed; }
-  .b--solid-m {  border-style: solid; }
-  .b--none-m {   border-style: none; }
+  .n_b--dotted-m { border-style: dotted; }
+  .n_b--dashed-m { border-style: dashed; }
+  .n_b--solid-m {  border-style: solid; }
+  .n_b--none-m {   border-style: none; }
 }
 
 @media #{$breakpoint-large} {
-  .b--dotted-l { border-style: dotted; }
-  .b--dashed-l { border-style: dashed; }
-  .b--solid-l {  border-style: solid; }
-  .b--none-l {   border-style: none; }
+  .n_b--dotted-l { border-style: dotted; }
+  .n_b--dashed-l { border-style: dashed; }
+  .n_b--solid-l {  border-style: solid; }
+  .n_b--none-l {   border-style: none; }
 }

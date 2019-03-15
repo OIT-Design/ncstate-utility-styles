@@ -12,31 +12,31 @@
 
 */
 
-.collapse {
+.n_collapse {
     border-collapse: collapse;
     border-spacing: 0;
 }
 
-.striped--light-silver:nth-child(odd) {
+.n_striped--light-silver:nth-child(odd) {
   background-color: $light-silver;
 }
 
-.striped--moon-gray:nth-child(odd) {
+.n_striped--moon-gray:nth-child(odd) {
   background-color: $moon-gray;
 }
 
-.striped--light-gray:nth-child(odd) {
+.n_striped--light-gray:nth-child(odd) {
   background-color: $light-gray;
 }
 
-.striped--near-white:nth-child(odd) {
+.n_striped--near-white:nth-child(odd) {
   background-color: $near-white;
 }
 
-.stripe-light:nth-child(odd) {
+.n_stripe-light:nth-child(odd) {
   background-color: $white-10;
 }
 
-.stripe-dark:nth-child(odd) {
+.n_stripe-dark:nth-child(odd) {
   background-color: $black-10;
 }

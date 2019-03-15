@@ -17,25 +17,25 @@
 */
 
 
-.ws-normal { white-space: normal; }
-.nowrap { white-space: nowrap; }
-.pre { white-space: pre; }
+.n_ws-normal { white-space: normal; }
+.n_nowrap { white-space: nowrap; }
+.n_pre { white-space: pre; }
 
 @media #{$breakpoint-not-small} {
-  .ws-normal-ns { white-space: normal; }
-  .nowrap-ns { white-space: nowrap; }
-  .pre-ns { white-space: pre; }
+  .n_ws-normal-ns { white-space: normal; }
+  .n_nowrap-ns { white-space: nowrap; }
+  .n_pre-ns { white-space: pre; }
 }
 
 @media #{$breakpoint-medium} {
-  .ws-normal-m { white-space: normal; }
-  .nowrap-m { white-space: nowrap; }
-  .pre-m { white-space: pre; }
+  .n_ws-normal-m { white-space: normal; }
+  .n_nowrap-m { white-space: nowrap; }
+  .n_pre-m { white-space: pre; }
 }
 
 @media #{$breakpoint-large} {
-  .ws-normal-l { white-space: normal; }
-  .nowrap-l { white-space: nowrap; }
-  .pre-l { white-space: pre; }
+  .n_ws-normal-l { white-space: normal; }
+  .n_nowrap-l { white-space: nowrap; }
+  .n_pre-l { white-space: pre; }
 }
 

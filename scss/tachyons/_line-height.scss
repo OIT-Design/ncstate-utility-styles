@@ -17,25 +17,25 @@
 
 */
 
-  .lh-solid { line-height: $line-height-solid; }
-  .lh-title { line-height: $line-height-title; }
-  .lh-copy  { line-height: $line-height-copy; }
+  .n_lh-solid { line-height: $line-height-solid; }
+  .n_lh-title { line-height: $line-height-title; }
+  .n_lh-copy  { line-height: $line-height-copy; }
 
 @media #{$breakpoint-not-small} {
-  .lh-solid-ns { line-height: $line-height-solid; }
-  .lh-title-ns { line-height: $line-height-title; }
-  .lh-copy-ns  { line-height: $line-height-copy; }
+  .n_lh-solid-ns { line-height: $line-height-solid; }
+  .n_lh-title-ns { line-height: $line-height-title; }
+  .n_lh-copy-ns  { line-height: $line-height-copy; }
 }
 
 @media #{$breakpoint-medium} {
-  .lh-solid-m { line-height: $line-height-solid; }
-  .lh-title-m { line-height: $line-height-title; }
-  .lh-copy-m  { line-height: $line-height-copy; }
+  .n_lh-solid-m { line-height: $line-height-solid; }
+  .n_lh-title-m { line-height: $line-height-title; }
+  .n_lh-copy-m  { line-height: $line-height-copy; }
 }
 
 @media #{$breakpoint-large} {
-  .lh-solid-l { line-height: $line-height-solid; }
-  .lh-title-l { line-height: $line-height-title; }
-  .lh-copy-l  { line-height: $line-height-copy; }
+  .n_lh-solid-l { line-height: $line-height-solid; }
+  .n_lh-title-l { line-height: $line-height-title; }
+  .n_lh-copy-l  { line-height: $line-height-copy; }
 }
 

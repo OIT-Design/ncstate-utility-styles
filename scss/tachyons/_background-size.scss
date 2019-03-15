@@ -22,20 +22,20 @@
   on an html element.
 */
 
-  .cover { background-size: cover!important; }
-  .contain { background-size: contain!important; }
+  .n_cover { background-size: cover!important; }
+  .n_contain { background-size: contain!important; }
 
 @media #{$breakpoint-not-small} {
-  .cover-ns { background-size: cover!important; }
-  .contain-ns { background-size: contain!important; }
+  .n_cover-ns { background-size: cover!important; }
+  .n_contain-ns { background-size: contain!important; }
 }
 
 @media #{$breakpoint-medium} {
-  .cover-m { background-size: cover!important; }
-  .contain-m { background-size: contain!important; }
+  .n_cover-m { background-size: cover!important; }
+  .n_contain-m { background-size: contain!important; }
 }
 
 @media #{$breakpoint-large} {
-  .cover-l { background-size: cover!important; }
-  .contain-l { background-size: contain!important; }
+  .n_cover-l { background-size: cover!important; }
+  .n_contain-l { background-size: contain!important; }
 }

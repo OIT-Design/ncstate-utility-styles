@@ -12,22 +12,22 @@
 
 */
 
-.link {
+.n_link {
   text-decoration: none;
   transition: color .15s ease-in;
 }
 
-.link:link,
-.link:visited {
+.n_link:link,
+.n_link:visited {
   transition: color .15s ease-in;
 }
-.link:hover   {
+.n_link:hover   {
   transition: color .15s ease-in;
 }
-.link:active  {
+.n_link:active  {
   transition: color .15s ease-in;
 }
-.link:focus   {
+.n_link:focus   {
   transition: color .15s ease-in;
   outline: 1px dotted currentColor;
 }

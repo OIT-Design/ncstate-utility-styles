@@ -16,42 +16,42 @@
 
 */
 
-/* Equivalent to .overflow-y-scroll */
-.overflow-container {
+/* Equivalent to .n_overflow-y-scroll */
+.n_overflow-container {
   overflow-y: scroll;
 }
 
-.center {
+.n_center {
   margin-right: auto;
   margin-left: auto;
 }
 
-.mr-auto { margin-right: auto; }
-.ml-auto { margin-left:  auto; }
+.n_mr-auto { margin-right: auto; }
+.n_ml-auto { margin-left:  auto; }
 
 @media #{$breakpoint-not-small}{
-  .center-ns {
+  .n_center-ns {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-ns { margin-right: auto; }
-  .ml-auto-ns { margin-left:  auto; }
+  .n_mr-auto-ns { margin-right: auto; }
+  .n_ml-auto-ns { margin-left:  auto; }
 }
 
 @media #{$breakpoint-medium}{
-  .center-m {
+  .n_center-m {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-m { margin-right: auto; }
-  .ml-auto-m { margin-left:  auto; }
+  .n_mr-auto-m { margin-right: auto; }
+  .n_ml-auto-m { margin-left:  auto; }
 }
 
 @media #{$breakpoint-large}{
-  .center-l {
+  .n_center-l {
     margin-right: auto;
     margin-left: auto;
   }
-  .mr-auto-l { margin-right: auto; }
-  .ml-auto-l { margin-left:  auto; }
+  .n_mr-auto-l { margin-right: auto; }
+  .n_ml-auto-l { margin-left:  auto; }
 }

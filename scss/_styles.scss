@@ -11,36 +11,36 @@
 
 /* Styles for Collapsing Elements */
 
-.h-00 {
+.n_h-00 {
   height: 0;
 }
 
-.ease-all {
+.n_ease-all {
   transition: 0.2s ease all;
 }
 
 /* split flex evenly */
 
-.flex-50 {
+.n_flex-50 {
   flex: 1 1 50%;
 }
 
-.flex-33 {
+.n_flex-33 {
   flex: 1 1 33%;
 }
 
-.underline-hover {
+.n_underline-hover {
   text-decoration: none;
 }
 
-.hover-parent .hover-shift-right {
+.n_hover-parent .n_hover-shift-right {
  right:0;
  transform: translateX(100%);
 }
 
-.hover-parent  {
+.n_hover-parent  {
   &:active, &:focus, &:hover {
-    .hover-shift-right {
+    .n_hover-shift-right {
       right: -0.5em;
     }
     
@@ -48,10 +48,10 @@
 }
 
 @for $i from 1 through 10 {
-  .fls#{$i} {
+  .n_fls#{$i} {
     flex-shrink: #{$i};
   }
-  .flg#{$i} {
+  .n_flg#{$i} {
     flex-grow: #{$i};
   }
 }

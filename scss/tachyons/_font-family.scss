@@ -13,19 +13,19 @@
 */
 
 
-.sans-serif {
+.n_sans-serif {
   font-family: $sans-serif;
 }
 
-.serif {
+.n_serif {
   font-family: $serif;
 }
 
-.system-sans-serif {
+.n_system-sans-serif {
   font-family: sans-serif;
 }
 
-.system-serif {
+.n_system-serif {
   font-family: serif;
 }
 
@@ -33,13 +33,13 @@
 /* Monospaced Typefaces (for code) */
 
 /* From http://cssfontstack.com */
-code, .code {
+code, .n_code {
   font-family: Consolas,
                monaco,
                monospace;
 }
 
-.courier {
+.n_courier {
   font-family: 'Courier Next',
                courier,
                monospace;
@@ -48,12 +48,12 @@ code, .code {
 
 /* Sans-Serif Typefaces */
 
-.helvetica {
+.n_helvetica {
   font-family: 'helvetica neue', helvetica,
                sans-serif;
 }
 
-.avenir {
+.n_avenir {
   font-family: 'avenir next', avenir,
                sans-serif;
 }
@@ -61,38 +61,38 @@ code, .code {
 
 /* Serif Typefaces */
 
-.athelas {
+.n_athelas {
   font-family: athelas,
                georgia,
                serif;
 }
 
-.georgia {
+.n_georgia {
   font-family: georgia,
                serif;
 }
 
-.times {
+.n_times {
   font-family: times,
                serif;
 }
 
-.bodoni {
+.n_bodoni {
   font-family: "Bodoni MT",
                 serif;
 }
 
-.calisto {
+.n_calisto {
   font-family: "Calisto MT",
                 serif;
 }
 
-.garamond {
+.n_garamond {
   font-family: garamond,
                serif;
 }
 
-.baskerville {
+.n_baskerville {
   font-family: baskerville,
                serif;
 }

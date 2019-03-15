@@ -17,28 +17,28 @@
 
 */
 
-.static { position: static; }
-.relative  { position: relative; }
-.absolute  { position: absolute; }
-.fixed  { position: fixed; }
+.n_static { position: static; }
+.n_relative  { position: relative; }
+.n_absolute  { position: absolute; }
+.n_fixed  { position: fixed; }
 
 @media #{$breakpoint-not-small} {
-  .static-ns { position: static; }
-  .relative-ns  { position: relative; }
-  .absolute-ns  { position: absolute; }
-  .fixed-ns  { position: fixed; }
+  .n_static-ns { position: static; }
+  .n_relative-ns  { position: relative; }
+  .n_absolute-ns  { position: absolute; }
+  .n_fixed-ns  { position: fixed; }
 }
 
 @media #{$breakpoint-medium} {
-  .static-m { position: static; }
-  .relative-m  { position: relative; }
-  .absolute-m  { position: absolute; }
-  .fixed-m  { position: fixed; }
+  .n_static-m { position: static; }
+  .n_relative-m  { position: relative; }
+  .n_absolute-m  { position: absolute; }
+  .n_fixed-m  { position: fixed; }
 }
 
 @media #{$breakpoint-large} {
-  .static-l { position: static; }
-  .relative-l  { position: relative; }
-  .absolute-l  { position: absolute; }
-  .fixed-l  { position: fixed; }
+  .n_static-l { position: static; }
+  .n_relative-l  { position: relative; }
+  .n_absolute-l  { position: absolute; }
+  .n_fixed-l  { position: fixed; }
 }

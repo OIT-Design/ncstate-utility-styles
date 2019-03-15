@@ -25,16 +25,16 @@
   Dim element on hover by adding the dim class.
 
 */
-.dim {
+.n_dim {
   opacity: 1;
   transition: opacity .15s ease-in;
 }
-.dim:hover,
-.dim:focus {
+.n_dim:hover,
+.n_dim:focus {
   opacity: .5;
   transition: opacity .15s ease-in;
 }
-.dim:active {
+.n_dim:active {
   opacity: .8; transition: opacity .15s ease-out;
 }
 
@@ -43,11 +43,11 @@
   Animate opacity to 100% on hover by adding the glow class.
 
 */
-.glow {
+.n_glow {
   transition: opacity .15s ease-in;
 }
-.glow:hover,
-.glow:focus {
+.n_glow:hover,
+.n_glow:focus {
   opacity: 1;
   transition: opacity .15s ease-in;
 }
@@ -67,60 +67,60 @@
   </div>
 */
 
-.hide-child .child {
+.n_hide-child .n_child {
   opacity: 0;
   transition: opacity .15s ease-in;
 }
-.hide-child:hover  .child,
-.hide-child:focus  .child,
-.hide-child:active .child {
+.n_hide-child:hover  .n_child,
+.n_hide-child:focus  .n_child,
+.n_hide-child:active .n_child {
   opacity: 1;
   transition: opacity .15s ease-in;
 }
 
-.underline-hover:hover,
-.underline-hover:focus {
+.n_underline-hover:hover,
+.n_underline-hover:focus {
   text-decoration: underline;
 }
 
 /* Can combine this with overflow-hidden to make background images grow on hover
  * even if you are using background-size: cover */
 
-.grow {
+.n_grow {
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform 0.25s ease-out;
 }
 
-.grow:hover,
-.grow:focus {
+.n_grow:hover,
+.n_grow:focus {
   transform: scale(1.05);
 }
 
-.grow:active {
+.n_grow:active {
   transform: scale(.90);
 }
 
-.grow-large {
+.n_grow-large {
   -moz-osx-font-smoothing: grayscale;
   backface-visibility: hidden;
   transform: translateZ(0);
   transition: transform .25s ease-in-out;
 }
 
-.grow-large:hover,
-.grow-large:focus {
+.n_grow-large:hover,
+.n_grow-large:focus {
   transform: scale(1.2);
 }
 
-.grow-large:active {
+.n_grow-large:active {
   transform: scale(.95);
 }
 
 /* Add pointer on hover */
 
-.pointer:hover {
+.n_pointer:hover {
   cursor: pointer;
 }
 
@@ -131,13 +131,13 @@
    http://tobiasahlin.com/blog/how-to-animate-box-shadow/
 */
 
-.shadow-hover {
+.n_shadow-hover {
   cursor: pointer;
   position: relative;
   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.shadow-hover::after {
+.n_shadow-hover::after {
   content: '';
   box-shadow: 0px 0px 16px 2px rgba( 0, 0, 0, .2 );
   border-radius: inherit;
@@ -151,16 +151,16 @@
   transition: opacity 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 
-.shadow-hover:hover::after,
-.shadow-hover:focus::after {
+.n_shadow-hover:hover::after,
+.n_shadow-hover:focus::after {
   opacity: 1;
 }
 
 /* Combine with classes in skins and skins-pseudo for
  * many different transition possibilities. */
 
-.bg-animate,
-.bg-animate:hover,
-.bg-animate:focus {
+.n_bg-animate,
+.n_bg-animate:hover,
+.n_bg-animate:focus {
   transition: background-color .15s ease-in-out;
 }
