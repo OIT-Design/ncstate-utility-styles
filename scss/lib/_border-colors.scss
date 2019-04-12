@@ -92,3 +92,11 @@
 .n_b--transparent { border-color: $transparent; }
 .n_b--inherit { border-color: inherit; }
 
+/* NC State Brand Border Colors (Where they don't override default tachyons classes) */
+.n_b--gray-10 {  border-color: $light-gray;}
+.n_b--gray-25 { border-color: $moon-gray; }
+.n_b--gray-60 {  border-color: $mid-gray;}
+.n_b--gray-90 {  border-color: $dark-gray;}
+.n_b--indigo {  border-color: $indigo;}
+.n_b--flame {border-color: $orange;}
+.n_b--reynolds {border-color: $dark-red;}

@@ -83,6 +83,11 @@
   text-decoration: underline;
 }
 
+.n_no-underline-hover:hover,
+.n_no-underline-hover:focus {
+  text-decoration: none;
+}
+
 /* Can combine this with overflow-hidden to make background images grow on hover
  * even if you are using background-size: cover */
 
@@ -164,3 +169,22 @@
 .n_bg-animate:focus {
   transition: background-color .15s ease-in-out;
 }
+
+
+.n_underline-hover {
+    text-decoration: none;
+  }
+
+  .n_hover-parent .n_hover-shift-right {
+   right:0;
+   transform: translateX(100%);
+  }
+
+  .n_hover-parent  {
+    &:active, &:focus, &:hover {
+      .n_hover-shift-right {
+        right: -0.5em;
+      }
+
+    }
+  }

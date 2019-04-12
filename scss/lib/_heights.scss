@@ -38,6 +38,9 @@
 
 */
 
+/* 0 Height*/
+.n_h-00 {height: 0;}
+
 /* Height Scale */
 
 .n_h1 { height: $height-1; }
@@ -71,6 +74,7 @@
 .n_h-inherit {  height: inherit; }
 
 @media #{$breakpoint-not-small} {
+    .n_h-00-ns {height: 0;}
   .n_h1-ns {  height: $height-1; }
   .n_h2-ns {  height: $height-2; }
   .n_h3-ns {  height: $height-3; }
@@ -91,6 +95,7 @@
 }
 
 @media #{$breakpoint-medium} {
+    .n_h-00-m {height: 0;}
   .n_h1-m { height: $height-1; }
   .n_h2-m { height: $height-2; }
   .n_h3-m { height: $height-3; }
@@ -111,6 +116,7 @@
 }
 
 @media #{$breakpoint-large} {
+    .n_h-00-l {height: 0;}
   .n_h1-l { height: $height-1; }
   .n_h2-l { height: $height-2; }
   .n_h3-l { height: $height-3; }

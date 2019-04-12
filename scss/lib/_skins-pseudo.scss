@@ -242,3 +242,27 @@
 .n_hover-bg-inherit:hover,
 .n_hover-bg-inherit:focus { background-color: inherit; }
 
+/* NC State Pseudo Colors (Where they don't override default tachyons classes) */
+.n_hover-bg-gray-10:hover, .n_hover-bg-gray-10:focus{  background-color: $light-gray;}
+.n_hover-bg-gray-25:hover, .n_hover-bg-gray-25:focus{ background-color: $moon-gray; }
+.n_hover-bg-gray-60:hover, .n_hover-bg-gray-60:focus{  background-color: $mid-gray;}
+.n_hover-bg-gray-90:hover, .n_hover-bg-gray-90:focus{  background-color: $dark-gray;}
+.n_hover-bg-indigo:hover, .n_hover-bg-indigo:focus{  background-color: $indigo;}
+.n_hover-bg-flame:hover, .n_hover-bg-flame:focus{background-color: $orange;}
+.n_hover-bg-reynolds:hover, .n_hover-bg-reynolds:focus{background-color: $dark-red;}
+
+/* Pseudo Fills for SVG */
+.n_hover-fill-red:hover, .n_hover-fill-red:focus  {fill: $red}
+.n_hover-fill-yellow:hover, .n_hover-fill-yellow:focus  {fill: $yellow}
+.n_hover-fill-green:hover,  .n_hover-fill-green:focus {fill: $green}
+.n_hover-fill-blue:hover, .n_hover-fill-blue:focus  {fill: $blue}
+.n_hover-fill-black:hover, .n_hover-fill-black:focus  {fill: $black}
+.n_hover-fill-white:hover, .n_hover-fill-white:focus  {fill:$white}
+.n_hover-fill-gray-10:hover,  .n_hover-fill-gray-10:focus {  fill: $light-gray;}
+.n_hover-fill-gray-25:hover,  .n_hover-fill-gray-25:focus { fill: $moon-gray; }
+.n_hover-fill-gray-60:hover, .n_hover-fill-gray-60:focus  {  fill: $mid-gray;}
+.n_hover-fill-gray-90:hover, .n_hover-fill-gray-90:focus  {  fill: $dark-gray;}
+.n_hover-fill-indigo:hover,  .n_hover-fill-indigo:focus {  fill: $indigo;}
+.n_hover-fill-flame:hover,  .n_hover-fill-flame:focus {fill: $orange;}
+.n_hover-fill-reynolds:hover,  .n_hover-fill-reynolds:focus {fill: $dark-red;}
+

@@ -27,6 +27,12 @@
   min-height: 0; /* 1 */
 }
 
+.n_flex-25 { flex: 1 1 25%; }
+.n_flex-33 { flex: 1 1 33%; }
+.n_flex-50 { flex: 1 1 50%; }
+.n_flex-66 { flex: 1 1 66%; }
+.n_flex-75 { flex: 1 1 75%; }
+
 .n_flex-none { flex: none; }
 
 .n_flex-column  { flex-direction: column; }
@@ -79,7 +85,21 @@
 .n_flex-shrink-0 { flex-shrink: 0; }
 .n_flex-shrink-1 { flex-shrink: 1; }
 
+@for $i from 0 through 10 {
+    .n_fls#{$i} {
+      flex-shrink: #{$i};
+    }
+    .n_flg#{$i} {
+      flex-grow: #{$i};
+    }
+  }
+
 @media #{$breakpoint-not-small} {
+.n_flex-25-ns { flex: 1 1 25%; }
+.n_flex-33-ns { flex: 1 1 33%; }
+.n_flex-50-ns { flex: 1 1 50%; }
+.n_flex-66-ns { flex: 1 1 66%; }
+.n_flex-75-ns { flex: 1 1 75%; }
   .n_flex-ns { display: flex; }
   .n_inline-flex-ns { display: inline-flex; }
   .n_flex-auto-ns {
@@ -136,8 +156,22 @@
 
   .n_flex-shrink-0-ns { flex-shrink: 0; }
   .n_flex-shrink-1-ns { flex-shrink: 1; }
+
+  @for $i from 0 through 10 {
+    .n_fls#{$i}-ns {
+      flex-shrink: #{$i};
+    }
+    .n_flg#{$i}-ns {
+      flex-grow: #{$i};
+    }
+  }
 }
 @media #{$breakpoint-medium} {
+    .n_flex-25-m { flex: 1 1 25%; }
+.n_flex-33-m { flex: 1 1 33%; }
+.n_flex-50-m { flex: 1 1 50%; }
+.n_flex-66-m { flex: 1 1 66%; }
+.n_flex-75-m { flex: 1 1 75%; }
   .n_flex-m { display: flex; }
   .n_inline-flex-m { display: inline-flex; }
   .n_flex-auto-m {
@@ -194,9 +228,22 @@
 
   .n_flex-shrink-0-m { flex-shrink: 0; }
   .n_flex-shrink-1-m { flex-shrink: 1; }
+  @for $i from 0 through 10 {
+    .n_fls#{$i}-m {
+      flex-shrink: #{$i};
+    }
+    .n_flg#{$i}-m {
+      flex-grow: #{$i};
+    }
+  }
 }
 
 @media #{$breakpoint-large} {
+    .n_flex-25-l { flex: 1 1 25%; }
+.n_flex-33-l { flex: 1 1 33%; }
+.n_flex-50-l { flex: 1 1 50%; }
+.n_flex-66-l { flex: 1 1 66%; }
+.n_flex-75-l { flex: 1 1 75%; }
   .n_flex-l { display: flex; }
   .n_inline-flex-l { display: inline-flex; }
   .n_flex-auto-l {
@@ -254,4 +301,13 @@
 
   .n_flex-shrink-0-l { flex-shrink: 0; }
   .n_flex-shrink-1-l { flex-shrink: 1; }
+  @for $i from 0 through 10 {
+    .n_fls#{$i}-l {
+      flex-shrink: #{$i};
+    }
+    .n_flg#{$i}-l {
+      flex-grow: #{$i};
+    }
+  }
+
 }

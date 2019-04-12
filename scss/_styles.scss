@@ -1,59 +1,9 @@
 
 // Compatability with WordPress and other integrated codebases
-@import './compatability';
+@import './wp-compatability';
 
-// Implementation of brand colors
-@import './color';
-
-// Typographic styles
-@import './typography';
-
-
-/* Styles for Collapsing Elements */
-
-.n_h-00 {
-  height: 0;
-}
-
-.n_ease-all {
-  transition: 0.2s ease all;
-}
-
-/* split flex evenly */
-
-.n_flex-50 {
-  flex: 1 1 50%;
-}
-
-.n_flex-33 {
-  flex: 1 1 33%;
-}
-
-.n_underline-hover {
-  text-decoration: none;
-}
-
-.n_hover-parent .n_hover-shift-right {
- right:0;
- transform: translateX(100%);
-}
-
-.n_hover-parent  {
-  &:active, &:focus, &:hover {
-    .n_hover-shift-right {
-      right: -0.5em;
+@for $i from 1 through 5 {
+    .n_s#{$i} {
+      @extend .n_h#{$i}, .n_w#{$i}
     }
-    
   }
-}
-
-@for $i from 1 through 10 {
-  .n_fls#{$i} {
-    flex-shrink: #{$i};
-  }
-  .n_flg#{$i} {
-    flex-grow: #{$i};
-  }
-}
-
-

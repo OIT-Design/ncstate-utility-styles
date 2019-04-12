@@ -78,6 +78,15 @@
 .n_text-washed-red { color: $washed-red; }
 .n_text-color-inherit { color: inherit; }
 
+/* NC State Brand Text Colors (Where they don't override default tachyons classes) */
+.n_text-gray-10 {  color: $light-gray;}
+.n_text-gray-25 { color: $moon-gray; }
+.n_text-gray-60 {  color: $mid-gray;}
+.n_text-gray-90 {  color: $dark-gray;}
+.n_text-indigo {  color: $indigo;}
+.n_text-flame {color: $orange;}
+.n_text-reynolds {color: $dark-red;}
+
 
 .n_bg-black-90 {         background-color: $black-90; }
 .n_bg-black-80 {         background-color: $black-80; }
@@ -144,3 +153,26 @@
 .n_bg-washed-red { background-color: $washed-red; }
 .n_bg-inherit { background-color: inherit; }
 
+/* NC State Brand Text Colors (Where they don't override default tachyons classes) */
+.n_bg-gray-10 {  background-color: $light-gray;}
+.n_bg-gray-25 { background-color: $moon-gray; }
+.n_bg-gray-60 {  background-color: $mid-gray;}
+.n_bg-gray-90 {  background-color: $dark-gray;}
+.n_bg-indigo {  background-color: $indigo;}
+.n_bg-flame {background-color: $orange;}
+.n_bg-reynolds {background-color: $dark-red;}
+
+/* Fill for SVG */
+.n_fill-red {fill: $red}
+.n_fill-yellow {fill: $yellow}
+.n_fill-green {fill: $green}
+.n_fill-blue {fill: $blue}
+.n_fill-black {fill: $black}
+.n_fill-white {fill:$white}
+.n_fill-gray-10 {  fill: $light-gray;}
+.n_fill-gray-25 { fill: $moon-gray; }
+.n_fill-gray-60 {  fill: $mid-gray;}
+.n_fill-gray-90 {  fill: $dark-gray;}
+.n_fill-indigo {  fill: $indigo;}
+.n_fill-flame {fill: $orange;}
+.n_fill-reynolds {fill: $dark-red;}

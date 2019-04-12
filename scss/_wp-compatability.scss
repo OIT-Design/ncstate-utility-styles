@@ -29,13 +29,6 @@
 
   /* Text Color Aliases for Compatability with Hillsborough */
 
-  .n_text-white { color: $white}
-  .n_text-black { color: $black}
-
-  .n_no-underline-hover:hover, .n_no-underline-hover:focus {
-    text-decoration: none;
-  }
-
   /* Useful for getting rid of bootstrap styles that add an icon before list items */
   .n_before-none:before {
     display:none;
@@ -52,8 +45,3 @@
     }
   }
 
-@for $i from 1 through 5 {
-  .n_s#{$i} {
-    @extend .n_height#{$i}, .n_w#{$i}
-  }
-}

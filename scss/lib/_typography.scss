@@ -51,6 +51,15 @@
   text-overflow: ellipsis;
 }
 
+/* Word Wrapping */
+.n_overflow-wrap-break {
+    overflow-wrap: break-word;
+  }
+
+  .n_overflow-wrap {
+    overflow-wrap: normal;
+  }
+
 @media #{$breakpoint-not-small} {
   .n_measure-ns  {
     max-width: $measure;
@@ -71,6 +80,13 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+  }
+  .n_overflow-wrap-break-ns {
+    overflow-wrap: break-word;
+  }
+
+  .n_overflow-wrap-ns {
+    overflow-wrap: normal;
   }
 }
 
@@ -95,6 +111,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .n_overflow-wrap-break-m {
+    overflow-wrap: break-word;
+  }
+
+  .n_overflow-wrap-m {
+    overflow-wrap: normal;
+  }
 }
 
 @media #{$breakpoint-large} {
@@ -118,4 +141,14 @@
     overflow: hidden;
     text-overflow: ellipsis;
   }
+  .n_overflow-wrap-break-l {
+    overflow-wrap: break-word;
+  }
+
+  .n_overflow-wrap-l {
+    overflow-wrap: normal;
+  }
 }
+
+
+
