@@ -14,67 +14,67 @@
 
  */
 
-.n_hover-black:hover,
-.n_hover-black:focus { color: $black; }
-.n_hover-near-black:hover,
-.n_hover-near-black:focus { color: $near-black; }
-.n_hover-dark-gray:hover,
-.n_hover-dark-gray:focus { color: $dark-gray; }
-.n_hover-mid-gray:hover,
-.n_hover-mid-gray:focus { color: $mid-gray; }
-.n_hover-gray:hover,
-.n_hover-gray:focus { color: $gray; }
-.n_hover-silver:hover,
-.n_hover-silver:focus { color: $silver; }
-.n_hover-light-silver:hover,
-.n_hover-light-silver:focus { color: $light-silver; }
-.n_hover-moon-gray:hover,
-.n_hover-moon-gray:focus { color: $moon-gray; }
-.n_hover-light-gray:hover,
-.n_hover-light-gray:focus { color: $light-gray; }
-.n_hover-near-white:hover,
-.n_hover-near-white:focus { color: $near-white; }
-.n_hover-white:hover,
-.n_hover-white:focus { color: $white; }
+.n_hover-text-black:hover,
+.n_hover-text-black:focus { color: $black; }
+.n_hover-text-near-black:hover,
+.n_hover-text-near-black:focus { color: $near-black; }
+.n_hover-text-dark-gray:hover,
+.n_hover-text-dark-gray:focus { color: $dark-gray; }
+.n_hover-text-mid-gray:hover,
+.n_hover-text-mid-gray:focus { color: $mid-gray; }
+.n_hover-text-gray:hover,
+.n_hover-text-gray:focus { color: $gray; }
+.n_hover-text-silver:hover,
+.n_hover-text-silver:focus { color: $silver; }
+.n_hover-text-light-silver:hover,
+.n_hover-text-light-silver:focus { color: $light-silver; }
+.n_hover-text-moon-gray:hover,
+.n_hover-text-moon-gray:focus { color: $moon-gray; }
+.n_hover-text-light-gray:hover,
+.n_hover-text-light-gray:focus { color: $light-gray; }
+.n_hover-text-near-white:hover,
+.n_hover-text-near-white:focus { color: $near-white; }
+.n_hover-text-white:hover,
+.n_hover-text-white:focus { color: $white; }
 
-.n_hover-black-90:hover,
-.n_hover-black-90:focus { color: $black-90; }
-.n_hover-black-80:hover,
-.n_hover-black-80:focus { color: $black-80; }
-.n_hover-black-70:hover,
-.n_hover-black-70:focus { color: $black-70; }
-.n_hover-black-60:hover,
-.n_hover-black-60:focus { color: $black-60; }
-.n_hover-black-50:hover,
-.n_hover-black-50:focus { color: $black-50; }
-.n_hover-black-40:hover,
-.n_hover-black-40:focus { color: $black-40; }
-.n_hover-black-30:hover,
-.n_hover-black-30:focus { color: $black-30; }
-.n_hover-black-20:hover,
-.n_hover-black-20:focus { color: $black-20; }
-.n_hover-black-10:hover,
-.n_hover-black-10:focus { color: $black-10; }
-.n_hover-white-90:hover,
-.n_hover-white-90:focus { color: $white-90; }
-.n_hover-white-80:hover,
-.n_hover-white-80:focus { color: $white-80; }
-.n_hover-white-70:hover,
-.n_hover-white-70:focus { color: $white-70; }
-.n_hover-white-60:hover,
-.n_hover-white-60:focus { color: $white-60; }
-.n_hover-white-50:hover,
-.n_hover-white-50:focus { color: $white-50; }
-.n_hover-white-40:hover,
-.n_hover-white-40:focus { color: $white-40; }
-.n_hover-white-30:hover,
-.n_hover-white-30:focus { color: $white-30; }
-.n_hover-white-20:hover,
-.n_hover-white-20:focus { color: $white-20; }
-.n_hover-white-10:hover,
-.n_hover-white-10:focus { color: $white-10; }
-.n_hover-inherit:hover,
-.n_hover-inherit:focus { color: inherit; }
+.n_hover-text-black-90:hover,
+.n_hover-text-black-90:focus { color: $black-90; }
+.n_hover-text-black-80:hover,
+.n_hover-text-black-80:focus { color: $black-80; }
+.n_hover-text-black-70:hover,
+.n_hover-text-black-70:focus { color: $black-70; }
+.n_hover-text-black-60:hover,
+.n_hover-text-black-60:focus { color: $black-60; }
+.n_hover-text-black-50:hover,
+.n_hover-text-black-50:focus { color: $black-50; }
+.n_hover-text-black-40:hover,
+.n_hover-text-black-40:focus { color: $black-40; }
+.n_hover-text-black-30:hover,
+.n_hover-text-black-30:focus { color: $black-30; }
+.n_hover-text-black-20:hover,
+.n_hover-text-black-20:focus { color: $black-20; }
+.n_hover-text-black-10:hover,
+.n_hover-text-black-10:focus { color: $black-10; }
+.n_hover-text-white-90:hover,
+.n_hover-text-white-90:focus { color: $white-90; }
+.n_hover-text-white-80:hover,
+.n_hover-text-white-80:focus { color: $white-80; }
+.n_hover-text-white-70:hover,
+.n_hover-text-white-70:focus { color: $white-70; }
+.n_hover-text-white-60:hover,
+.n_hover-text-white-60:focus { color: $white-60; }
+.n_hover-text-white-50:hover,
+.n_hover-text-white-50:focus { color: $white-50; }
+.n_hover-text-white-40:hover,
+.n_hover-text-white-40:focus { color: $white-40; }
+.n_hover-text-white-30:hover,
+.n_hover-text-white-30:focus { color: $white-30; }
+.n_hover-text-white-20:hover,
+.n_hover-text-white-20:focus { color: $white-20; }
+.n_hover-text-white-10:hover,
+.n_hover-text-white-10:focus { color: $white-10; }
+.n_hover-text-inherit:hover,
+.n_hover-text-inherit:focus { color: inherit; }
 
 .n_hover-bg-black:hover,
 .n_hover-bg-black:focus { background-color: $black; }
@@ -138,56 +138,56 @@
 .n_hover-bg-white-10:hover,
 .n_hover-bg-white-10:focus { background-color: $white-10; }
 
-.n_hover-dark-red:hover,
-.n_hover-dark-red:focus { color: $dark-red; }
-.n_hover-red:hover,
-.n_hover-red:focus { color: $red; }
-.n_hover-light-red:hover,
-.n_hover-light-red:focus { color: $light-red; }
-.n_hover-orange:hover,
-.n_hover-orange:focus { color: $orange; }
-.n_hover-gold:hover,
-.n_hover-gold:focus { color: $gold; }
-.n_hover-yellow:hover,
-.n_hover-yellow:focus { color: $yellow; }
-.n_hover-light-yellow:hover,
-.n_hover-light-yellow:focus { color: $light-yellow; }
-.n_hover-purple:hover,
-.n_hover-purple:focus { color: $purple; }
-.n_hover-light-purple:hover,
-.n_hover-light-purple:focus { color: $light-purple; }
-.n_hover-dark-pink:hover,
-.n_hover-dark-pink:focus { color: $dark-pink; }
-.n_hover-hot-pink:hover,
-.n_hover-hot-pink:focus { color: $hot-pink; }
-.n_hover-pink:hover,
-.n_hover-pink:focus { color: $pink; }
-.n_hover-light-pink:hover,
-.n_hover-light-pink:focus { color: $light-pink; }
-.n_hover-dark-green:hover,
-.n_hover-dark-green:focus { color: $dark-green; }
-.n_hover-green:hover,
-.n_hover-green:focus { color: $green; }
-.n_hover-light-green:hover,
-.n_hover-light-green:focus { color: $light-green; }
-.n_hover-navy:hover,
-.n_hover-navy:focus { color: $navy; }
-.n_hover-dark-blue:hover,
-.n_hover-dark-blue:focus { color: $dark-blue; }
-.n_hover-blue:hover,
-.n_hover-blue:focus { color: $blue; }
-.n_hover-light-blue:hover,
-.n_hover-light-blue:focus { color: $light-blue; }
-.n_hover-lightest-blue:hover,
-.n_hover-lightest-blue:focus { color: $lightest-blue; }
-.n_hover-washed-blue:hover,
-.n_hover-washed-blue:focus { color: $washed-blue; }
-.n_hover-washed-green:hover,
-.n_hover-washed-green:focus { color: $washed-green; }
-.n_hover-washed-yellow:hover,
-.n_hover-washed-yellow:focus { color: $washed-yellow; }
-.n_hover-washed-red:hover,
-.n_hover-washed-red:focus { color: $washed-red; }
+.n_hover-text-dark-red:hover,
+.n_hover-text-dark-red:focus { color: $dark-red; }
+.n_hover-text-red:hover,
+.n_hover-text-red:focus { color: $red; }
+.n_hover-text-light-red:hover,
+.n_hover-text-light-red:focus { color: $light-red; }
+.n_hover-text-orange:hover,
+.n_hover-text-orange:focus { color: $orange; }
+.n_hover-text-gold:hover,
+.n_hover-text-gold:focus { color: $gold; }
+.n_hover-text-yellow:hover,
+.n_hover-text-yellow:focus { color: $yellow; }
+.n_hover-text-light-yellow:hover,
+.n_hover-text-light-yellow:focus { color: $light-yellow; }
+.n_hover-text-purple:hover,
+.n_hover-text-purple:focus { color: $purple; }
+.n_hover-text-light-purple:hover,
+.n_hover-text-light-purple:focus { color: $light-purple; }
+.n_hover-text-dark-pink:hover,
+.n_hover-text-dark-pink:focus { color: $dark-pink; }
+.n_hover-text-hot-pink:hover,
+.n_hover-text-hot-pink:focus { color: $hot-pink; }
+.n_hover-text-pink:hover,
+.n_hover-text-pink:focus { color: $pink; }
+.n_hover-text-light-pink:hover,
+.n_hover-text-light-pink:focus { color: $light-pink; }
+.n_hover-text-dark-green:hover,
+.n_hover-text-dark-green:focus { color: $dark-green; }
+.n_hover-text-green:hover,
+.n_hover-text-green:focus { color: $green; }
+.n_hover-text-light-green:hover,
+.n_hover-text-light-green:focus { color: $light-green; }
+.n_hover-text-navy:hover,
+.n_hover-text-navy:focus { color: $navy; }
+.n_hover-text-dark-blue:hover,
+.n_hover-text-dark-blue:focus { color: $dark-blue; }
+.n_hover-text-blue:hover,
+.n_hover-text-blue:focus { color: $blue; }
+.n_hover-text-light-blue:hover,
+.n_hover-text-light-blue:focus { color: $light-blue; }
+.n_hover-text-lightest-blue:hover,
+.n_hover-text-lightest-blue:focus { color: $lightest-blue; }
+.n_hover-text-washed-blue:hover,
+.n_hover-text-washed-blue:focus { color: $washed-blue; }
+.n_hover-text-washed-green:hover,
+.n_hover-text-washed-green:focus { color: $washed-green; }
+.n_hover-text-washed-yellow:hover,
+.n_hover-text-washed-yellow:focus { color: $washed-yellow; }
+.n_hover-text-washed-red:hover,
+.n_hover-text-washed-red:focus { color: $washed-red; }
 
 .n_hover-bg-dark-red:hover,
 .n_hover-bg-dark-red:focus { background-color: $dark-red; }
