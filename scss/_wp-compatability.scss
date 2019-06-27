@@ -27,12 +27,22 @@
     position: fixed;
   }
 
-  /* Text Color Aliases for Compatability with Hillsborough */
 
   /* Useful for getting rid of bootstrap styles that add an icon before list items */
   .n_before-none:before {
     display:none;
   }
+
+
+/* fixes display glitch with the range control slider in Gutenberg */
+.components-range-control__slider {
+    margin: 1px;
+}
+
+h2.theme-name {
+    box-sizing: content-box;
+}
+
 
 /* Override Specifically set Font Sizes on Editor Paragraphs */
 @each $el in h1 h2 h3 h4 h5 h6 p {
@@ -44,4 +54,3 @@
     }
     }
   }
-
