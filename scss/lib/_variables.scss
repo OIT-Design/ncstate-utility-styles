@@ -110,7 +110,7 @@ $red: #ff4136 !default;
 $light-red: #ff725c !default;
 $orange: #ff6300 !default;
 $gold: #ffb700 !default;
-$yellow: #ffd700 !default;
+$yellow: #FAC800 !default;
 $light-yellow: #fbf1a9 !default;
 $purple: #5e2ca5 !default;
 $light-purple: #a463f2 !default;
@@ -149,7 +149,84 @@ $light-gray: #f2f2f2 ;
 $dark-red: #990000 ;
 $red: #cc0000 ;
 $orange: #d14905 ;
-$yellow: #fdd726 ;
+$yellow: #FAC800 ;
 $green: #6f7d1c ;
 $indigo: #4156a1;
 $blue: #427e93;
+$aqua: #008473;
+
+// Wolfpack Red / Reynolds Red
+$red-100: #ea1500;
+$red-200: #cc0000; // Wolfpack Red
+$red-300: #b40000;
+$red-400: #990000; // Reynolds Red
+$red-500: #7e0000;
+$red-600: #5e0000;
+$red-700: #3e0000;
+
+// Pyroman Flame
+$flame-100: #f8a812;
+$flame-200: #f28c0d;
+$flame-300: #e16408;
+$flame-400: #d14905; // Pyroman Flame
+$flame-500: #c03003;
+$flame-600: #a91b02;
+$flame-700: #910e01;
+
+// Hunt Yellow
+$hunt-100: #fef8cb;
+$hunt-200: #fde565;
+$hunt-300: #f8da3e;
+$hunt-400: #fac800; // Hunt Yellow
+$hunt-500: #d7a700;
+$yehuntlow-600: #b88800;
+$hunt-700: #966d00;
+
+// Genomic Green
+$genomic-100: #bfcc46;
+$genomic-200: #a2b729;
+$genomic-300: #8d9e2b;
+$genomic-400: #6f7d1c; // Genonic Green
+$genomic-500: #586800;
+$genomic-600: #424c09;
+$genomic-700: #2f3a03;
+
+// Carmichael Aqua
+$aqua-100: #91f2cb;
+$aqua-200: #57dab1;
+$aqua-300: #2db597;
+$aqua-400: #008473; // Carmichael Aqua
+$aqua-500: #00716d;
+$aqua-600: #005b5f;
+$aqua-700: #00444c;
+
+// Innovation Blue
+$innovation-100: #80c3d4;
+$innovation-200: #6fb2c5;
+$innovation-300: #599baf;
+$innovation-400: #427e93; // Innovation Blue
+$innovation-500: #2d637a;
+$innovation-600: #1d4b61;
+$innovation-700: #12394d;
+
+// Bio-Indigo
+$indigo-100: #84a0dc;
+$indigo-200: #728bcf;
+$indigo-300: #5b73bb;
+$indigo-400: #4156a1; // Bio-Indigo
+$indigo-500: #344891;
+$indigo-600: #24347b;
+$indigo-700: #192668;
+
+// Gray
+$white: #ffffff;
+$gray-100: #e5e5e5;
+$gray-200: #cccccc;
+$gray-300: #b2b2b2;
+$gray-400: #999999;
+$gray-500: #808080;
+$gray-600: #666666;
+$gray-700: #4d4d4d;
+$gray-800: #333333;
+$gray-900: #1a1a1a;
+$black: #000000;
