@@ -43,6 +43,195 @@ h2.theme-name {
     box-sizing: content-box;
 }
 
+/* Colors */
+.has-red-color { color: $red; }
+.has-white-color { color: $white; }
+.has-gray-10-color { color: $light-gray; }
+.has-gray-25-color { color: $moon-gray; }
+.has-gray-60-color { color: $mid-gray; }
+.has-gray-90-color { color: $dark-gray; }
+.has-black-color { color: $black; }
+.has-reynolds-color { color: $dark-red; }
+.has-flame-color { color: $orange; }
+.has-yellow-color { color: $yellow; }
+.has-hunt-color { color: $yellow; }
+.has-green-color { color: $green; }
+.has-genomic-color { color: $green; }
+.has-blue-color { color: $blue; }
+.has-innovation-color { color: $innovation; }
+.has-indigo-color { color: $indigo; }
+.has-aqua-color { color: $aqua; }
+
+/* NC State Brand Colors (with tints/shades) */
+
+// Wolfpack Red
+.has-red-100-color { color: $red-100; }
+.has-red-200-color { color: $red-200; }
+.has-red-300-color { color: $red-300; }
+.has-red-400-color { color: $red-400; }
+.has-red-500-color { color: $red-500; }
+.has-red-600-color { color: $red-600; }
+.has-red-700-color { color: $red-700; }
+
+// Pyroman Flame
+.has-flame-100-color { color: $flame-100; }
+.has-flame-200-color { color: $flame-200; }
+.has-flame-300-color { color: $flame-300; }
+.has-flame-400-color { color: $flame-400; }
+.has-flame-500-color { color: $flame-500; }
+.has-flame-600-color { color: $flame-600; }
+.has-flame-700-color { color: $flame-700; }
+
+// Hunt Yellow
+.has-hunt-100-color { color: $hunt-100; }
+.has-hunt-200-color { color: $hunt-200; }
+.has-hunt-300-color { color: $hunt-300; }
+.has-hunt-400-color { color: $hunt-400; }
+.has-hunt-500-color { color: $hunt-500; }
+.has-hunt-600-color { color: $hunt-600; }
+.has-hunt-700-color { color: $hunt-700; }
+
+// Genomic Green
+.has-genomic-100-color { color: $genomic-100; }
+.has-genomic-200-color { color: $genomic-200; }
+.has-genomic-300-color { color: $genomic-300; }
+.has-genomic-400-color { color: $genomic-400; }
+.has-genomic-500-color { color: $genomic-500; }
+.has-genomic-600-color { color: $genomic-600; }
+.has-genomic-700-color { color: $genomic-700; }
+
+// Carmichael Aqua
+.has-aqua-100-color { color: $aqua-100; }
+.has-aqua-200-color { color: $aqua-200; }
+.has-aqua-300-color { color: $aqua-300; }
+.has-aqua-400-color { color: $aqua-400; }
+.has-aqua-500-color { color: $aqua-500; }
+.has-aqua-600-color { color: $aqua-600; }
+.has-aqua-700-color { color: $aqua-700; }
+
+// Innovation Blue
+.has-innovation-100-color { color: $innovation-100; }
+.has-innovation-200-color { color: $innovation-200; }
+.has-innovation-300-color { color: $innovation-300; }
+.has-innovation-400-color { color: $innovation-400; }
+.has-innovation-500-color { color: $innovation-500; }
+.has-innovation-600-color { color: $innovation-600; }
+.has-innovation-700-color { color: $innovation-700; }
+
+// Bio-Indigo
+.has-indigo-100-color { color: $indigo-100; }
+.has-indigo-200-color { color: $indigo-200; }
+.has-indigo-300-color { color: $indigo-300; }
+.has-indigo-400-color { color: $indigo-400; }
+.has-indigo-500-color { color: $indigo-500; }
+.has-indigo-600-color { color: $indigo-600; }
+.has-indigo-700-color { color: $indigo-700; }
+
+// Gray
+.has-gray-100-color { color: $gray-100; }
+.has-gray-200-color { color: $gray-200; }
+.has-gray-300-color { color: $gray-300; }
+.has-gray-400-color { color: $gray-400; }
+.has-gray-500-color { color: $gray-500; }
+.has-gray-600-color { color: $gray-600; }
+.has-gray-700-color { color: $gray-700; }
+.has-gray-800-color { color: $gray-800; }
+.has-gray-900-color { color: $gray-900; }
+
+
+.has-red-background-color { background-color: $red; }
+.has-white-background-color { background-color: $white; }
+.has-gray-10-background-color { background-color: $light-gray; }
+.has-gray-25-background-color { background-color: $moon-gray; }
+.has-gray-60-background-color { background-color: $mid-gray; }
+.has-gray-90-background-color { background-color: $dark-gray; }
+.has-black-background-color { background-color: $black; }
+.has-reynolds-background-color { background-color: $dark-red; }
+.has-flame-background-color { background-color: $orange; }
+.has-yellow-background-color { background-color: $yellow; }
+.has-hunt-background-color { background-color: $yellow; }
+.has-green-background-color { background-color: $green; }
+.has-genomic-background-color { background-color: $green; }
+.has-blue-background-color { background-color: $blue; }
+.has-innovation-background-color { background-color: $blue; }
+.has-indigo-background-color { background-color: $indigo; }
+.has-aqua-background-color { background-color: $aqua; }
+
+/* NC State Brand Colors (with tints/shades) */
+
+// Wolfpack Red
+.has-red-100-background-color { background-color: $red-100; }
+.has-red-200-background-color { background-color: $red-200; }
+.has-red-300-background-color { background-color: $red-300; }
+.has-red-400-background-color { background-color: $red-400; }
+.has-red-500-background-color { background-color: $red-500; }
+.has-red-600-background-color { background-color: $red-600; }
+.has-red-700-background-color { background-color: $red-700; }
+
+// Pyroman Flame
+.has-flame-100-background-color { background-color: $flame-100; }
+.has-flame-200-background-color { background-color: $flame-200; }
+.has-flame-300-background-color { background-color: $flame-300; }
+.has-flame-400-background-color { background-color: $flame-400; }
+.has-flame-500-background-color { background-color: $flame-500; }
+.has-flame-600-background-color { background-color: $flame-600; }
+.has-flame-700-background-color { background-color: $flame-700; }
+
+// Hunt Yellow
+.has-hunt-100-background-color { background-color: $hunt-100; }
+.has-hunt-200-background-color { background-color: $hunt-200; }
+.has-hunt-300-background-color { background-color: $hunt-300; }
+.has-hunt-400-background-color { background-color: $hunt-400; }
+.has-hunt-500-background-color { background-color: $hunt-500; }
+.has-hunt-600-background-color { background-color: $hunt-600; }
+.has-hunt-700-background-color { background-color: $hunt-700; }
+
+// Genomic Green
+.has-genomic-100-background-color { background-color: $genomic-100; }
+.has-genomic-200-background-color { background-color: $genomic-200; }
+.has-genomic-300-background-color { background-color: $genomic-300; }
+.has-genomic-400-background-color { background-color: $genomic-400; }
+.has-genomic-500-background-color { background-color: $genomic-500; }
+.has-genomic-600-background-color { background-color: $genomic-600; }
+.has-genomic-700-background-color { background-color: $genomic-700; }
+
+// Carmichael Aqua
+.has-aqua-100-background-color { background-color: $aqua-100; }
+.has-aqua-200-background-color { background-color: $aqua-200; }
+.has-aqua-300-background-color { background-color: $aqua-300; }
+.has-aqua-400-background-color { background-color: $aqua-400; }
+.has-aqua-500-background-color { background-color: $aqua-500; }
+.has-aqua-600-background-color { background-color: $aqua-600; }
+.has-aqua-700-background-color { background-color: $aqua-700; }
+
+// Innovation Blue
+.has-innovation-100-background-color { background-color: $innovation-100; }
+.has-innovation-200-background-color { background-color: $innovation-200; }
+.has-innovation-300-background-color { background-color: $innovation-300; }
+.has-innovation-400-background-color { background-color: $innovation-400; }
+.has-innovation-500-background-color { background-color: $innovation-500; }
+.has-innovation-600-background-color { background-color: $innovation-600; }
+.has-innovation-700-background-color { background-color: $innovation-700; }
+
+// Bio-Indigo
+.has-indigo-100-background-color { background-color: $indigo-100; }
+.has-indigo-200-background-color { background-color: $indigo-200; }
+.has-indigo-300-background-color { background-color: $indigo-300; }
+.has-indigo-400-background-color { background-color: $indigo-400; }
+.has-indigo-500-background-color { background-color: $indigo-500; }
+.has-indigo-600-background-color { background-color: $indigo-600; }
+.has-indigo-700-background-color { background-color: $indigo-700; }
+
+// Gray
+.has-gray-100-background-color { background-color: $gray-100; }
+.has-gray-200-background-color { background-color: $gray-200; }
+.has-gray-300-background-color { background-color: $gray-300; }
+.has-gray-400-background-color { background-color: $gray-400; }
+.has-gray-500-background-color { background-color: $gray-500; }
+.has-gray-600-background-color { background-color: $gray-600; }
+.has-gray-700-background-color { background-color: $gray-700; }
+.has-gray-800-background-color { background-color: $gray-800; }
+.has-gray-900-background-color { background-color: $gray-900; }
 
 /* Override Specifically set Font Sizes on Editor Paragraphs */
 @each $el in h1 h2 h3 h4 h5 h6 p {
